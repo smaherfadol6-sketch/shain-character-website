@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO -->
+    <title>Shain Character | لوحات جدارية وتصاميم فنية</title>
+    <meta name="description" content="Shain Character - لوحات جدارية وتصاميم فنية بلمسات من الملمس والبروز والإضاءة. أعمال فنية مميزة لمساحتك.">
+    <meta name="keywords" content="Shain Character, لوحات جدارية, مرايا مضيئة, تصاميم ديكورية, فن, ديكور, wall art, lighted mirrors, decor">
+    <meta name="author" content="Shain Character">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shain Character | Wall Art & Designs">
+    <meta property="og:description" content="Artistic wall pieces & lighted mirrors with unique texture, relief & lighting accents.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Shain Character">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shain Character | Wall Art & Designs">
+    <meta name="twitter:description" content="Artistic wall pieces & lighted mirrors with unique texture, relief & lighting accents.">
+    <meta name="twitter:image" content="logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="product-01.jpg">
+    <link rel="preload" as="image" href="logo.png">
+</head>
+<body>
+
+    <!-- ═══ Header ═══ -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="nav-logo">
+                    <img src="logo.png" alt="Shain Character Logo" width="45" height="45">
+                    <span>Shain Character</span>
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="home">الرئيسية</a></li>
+                    <li><a href="#works" data-i18n="works">الأعمال</a></li>
+                    <li><a href="#about" data-i18n="about">عن Shain</a></li>
+                    <li><a href="#contact" data-i18n="contact">التواصل</a></li>
+                    <li><button class="lang-toggle" id="lang-toggle">English</button></li>
+                </ul>
+
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home" data-i18n="home">الرئيسية</a></li>
+            <li><a href="#works" data-i18n="works">الأعمال</a></li>
+            <li><a href="#about" data-i18n="about">عن Shain</a></li>
+            <li><a href="#contact" data-i18n="contact">التواصل</a></li>
+            <li><button class="lang-toggle" id="lang-toggle-mobile">English</button></li>
+        </ul>
+    </div>
+
+    <!-- ═══ Hero Section ═══ -->
+    <section class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('product-01.jpg');" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <img src="logo.png" alt="Shain Character" class="hero-logo" width="180" height="180">
+            <h1 class="hero-title" id="hero-title">لمسة فنية تصنع الفرق</h1>
+            <p class="hero-subtitle" id="hero-subtitle">لوحات جدارية وتصاميم فنية بلمسات من الملمس والبروز والإضاءة</p>
+            <div class="hero-buttons">
+                <a href="#works" class="btn btn-primary" id="browse-btn">استعرض الأعمال</a>
+                <a href="#contact" class="btn btn-outline" id="contact-btn">تواصل معنا</a>
+            </div>
+        </div>
+
+        <a href="#works" class="hero-scroll" aria-label="Scroll down">↓</a>
+    </section>
+
+    <!-- ═══ Works Section ═══ -->
+    <section class="section section-cream" id="works">
+        <div class="container">
+            <h2 class="section-title" id="works-title">أحدث الأعمال</h2>
+            <div class="works-grid" id="works-grid">
+                <!-- Products rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ About Section ═══ -->
+    <section class="section section-dark" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="logo.png" alt="Shain Character Logo" width="280" height="280">
+                </div>
+                <div class="about-content">
+                    <h2 id="about-title">عن Shain Character</h2>
+                    <p id="about-text-1">نقدم لك أعمالاً فنية مميزة تجمع بين الجمال والبساطة، لتضفي لمسة فنية مميزة إلى مساحاتك.</p>
+                    <p id="about-text-2">نختص في اللوحات الجدارية والمرايا المضيئة والتصاميم الديكورية الفريدة.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span>✦</span>
+                            <span data-feature="feature1">تصاميم فريدة</span>
+                        </div>
+                        <div class="about-feature">
+                            <span>✦</span>
+                            <span data-feature="feature2">جودة عالية</span>
+                        </div>
+                        <div class="about-feature">
+                            <span>✦</span>
+                            <span data-feature="feature3">توصيل متاح</span>
+                        </div>
+                        <div class="about-feature">
+                            <span>✦</span>
+                            <span data-feature="feature4">تصاميم حسب الطلب</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Contact Section ═══ -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 id="contact-title">تواصل معنا</h2>
+                    <p id="contact-text">نحن هنا لمساعدتك. تواصل معنا عبر WhatsApp أو Instagram.</p>
+                    <div class="contact-links">
+                        <a href="https://wa.me/qr/SPSR5GCMQS2QI1" class="contact-link" target="_blank" rel="noopener" id="whatsapp-link">
+                            <span style="font-size:1.8rem;">📱</span>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label" data-i18n="whatsappLabel">WhatsApp</span>
+                                <span class="contact-link-value">تواصل معنا</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/ssmmaa.store?igsi=MXdrYjU0bm1qdXNhaw==" class="contact-link" target="_blank" rel="noopener" id="instagram-link">
+                            <span style="font-size:1.8rem;">📷</span>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label" data-i18n="instagramLabel">Instagram</span>
+                                <span class="contact-link-value">ssmmaa.store</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image" style="text-align:center;">
+                    <img src="product-02.jpg" alt="Shain Character Artwork" style="border-radius:12px; max-width:350px; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ Footer ═══ -->
+    <footer class="footer">
+        <div class="container">
+            <img src="logo.png" alt="Shain Character" class="footer-logo" width="60" height="60">
+            <div class="footer-brand">Shain Character</div>
+            <p class="footer-copy" id="footer-copy">© 2026 Shain Character — جميع الحقوق محفوظة</p>
+            <div class="footer-social">
+                <a href="https://wa.me/qr/SPSR5GCMQS2QI1" target="_blank" rel="noopener" aria-label="WhatsApp">📱</a>
+                <a href="https://www.instagram.com/ssmmaa.store?igsi=MXdrYjU0bm1qdXNhaw==" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══ Floating WhatsApp ═══ -->
+    <a href="https://wa.me/qr/SPSR5GCMQS2QI1" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        💬
+    </a>
+
+    <!-- ═══ Product Modal ═══ -->
+    <div class="modal-overlay" id="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-content" id="modal-content" role="document">
+            <!-- Modal content rendered by JavaScript -->
+        </div>
+    </div>
+
+    <!-- ═══ Toast ═══ -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- ═══ Scripts ═══ -->
+    <script src="config.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Language toggle for mobile menu -->
+    <script>
+        document.getElementById('lang-toggle-mobile').addEventListener('click', function() {
+            document.getElementById('lang-toggle').click();
+        });
+    </script>
+
+</body>
+</html>

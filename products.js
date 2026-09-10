@@ -1,7 +1,3 @@
-// ═══════════════════════════════════════════════════
-// Shain Character - Products Data
-// ═══════════════════════════════════════════════════
-
 const PRODUCTS = [
     {
         id: 1,
@@ -80,4 +76,4 @@ const CATEGORIES = [
 if (typeof window !== 'undefined') {
     window.PRODUCTS = PRODUCTS;
     window.CATEGORIES = CATEGORIES;
-}
+        }
